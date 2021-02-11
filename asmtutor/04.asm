@@ -12,7 +12,7 @@
 ; the address is then POP 'ped off the stack with RET and thats how the program resumes execution
 
 section .data
-    msg: db "muetherfUckEr!", 13, 10, "small cunteh!!"
+    msg: db "Hello!", 13, 10, "World!!"
 
 section .text
 global _start
