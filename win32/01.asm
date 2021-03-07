@@ -3,6 +3,10 @@ bits 32
 ; nasm -f win32 01.asm
 ; golink 01.obj kernel32.dll user32.dll /entry:_start
 ;
+
+; this section really is not needed as long as kernel32 and userland32 are provided to linker
+; even without providing those to linker, this section is still useless
+; no use, get rid
 [SECTION .drctve info align=8]
 db "kernel32.dll", 0x20
 db "user32.dll", 0x20   ; space terminated strings
