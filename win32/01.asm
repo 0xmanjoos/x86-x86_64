@@ -20,7 +20,7 @@ section .text
 global _start
 
 ; i dont like how everything in windowws x86 is a dword
-; cant they just use bytes liek the rest of us
+; me no liek
 _start:
     push DWORD 0
     push DWORD caption
