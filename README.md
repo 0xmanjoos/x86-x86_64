@@ -10,6 +10,4 @@ https://opensecuritytraining.info/Training.html
 
 https://techtalk.intersec.com/2013/07/memory-part-1-memory-types/
 
-https://asmtutor.com/
-
 https://godbolt.org/
